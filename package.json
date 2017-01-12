@@ -1,0 +1,26 @@
+{
+  "name": "slack-dice-bot",
+  "version": "1.0.0",
+  "description": "Bot to allow dicerolling in slack with a 'roll' command",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.65.0",
+    "slack-terminalize": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ALawley/Dice-Slackbot"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "keywords": [
+    "slack",
+    "terminal"
+  ],
+  "author": "Anna Lawley",
+  "license": "MIT"
+}
