@@ -1,3 +1,7 @@
 {
-	
+	"roll": {
+		"alias": [ "dice" ],
+		"help": "roll [dice]",
+		"description": "Roll dice using XdY notation"
+	}
 }
