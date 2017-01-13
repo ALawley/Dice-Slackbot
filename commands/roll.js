@@ -12,7 +12,7 @@ module.exports = function (param) {
   for (i = 0; i < diceCount; i++) {
     diceResults.push(roll(diceSize));
   }
-  var info = [];
+  var info = [param.args[0]];
   function add(a, b) {
     return a + b;
   }
