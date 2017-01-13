@@ -16,7 +16,13 @@ module.exports = function (param) {
   function add(a, b) {
     return a + b;
   }
+  var total = 0;
+  if (param.args[1]) {
+    total = diceResults.reduce(add, 0) + parseInt(param.args[1]);
+  } else {
+    total = diceResults.reduce(add, 0);
+  }
   info.push(diceResults);
-  info.push(diceResults.reduce(add, 0))
+  info.push(total);
   util.postMessage(channel, info.join('\n\n'));
 };
