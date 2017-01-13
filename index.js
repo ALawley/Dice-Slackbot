@@ -1,5 +1,5 @@
 var slackTerminal = require('slack-terminalize');
-var botToken = require('./.env');
+var botToken = require('./.env').botToken;
 
 slackTerminal.init(botToken, {
 
