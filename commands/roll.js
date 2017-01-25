@@ -10,7 +10,6 @@ function roll(dieSize) {
 
 module.exports = function(param) {
   var	channel	= param.channel;
-  console.log(param.args[0]);
   if (param.args[0].includes('d')) {
     var rollInfo = param.args[0].split('d');
     if (parseInt(rollInfo[0]) && parseInt(rollInfo[1])) {
