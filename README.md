@@ -36,6 +36,7 @@ In addition you will need a heroku account to deploy the bot and a slack with ad
 
 ## Future To-Dos
 
+* add a bash script to set `DICE_BOT_TOKEN` locally then run, for local testing.
 * add help commands to the bot
 * rebuild as a slash command
 
