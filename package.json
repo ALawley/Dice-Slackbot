@@ -15,7 +15,7 @@
     "url": "https://github.com/ALawley/Dice-Slackbot"
   },
   "engines": {
-    "node": "6.0.0"
+    "node": "6.5.0"
   },
   "keywords": [
     "slack",
