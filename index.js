@@ -1,7 +1,6 @@
 var slackTerminal = require('slack-terminalize');
-var botToken = require('./.env').botToken;
 
-slackTerminal.init(botToken, {
+slackTerminal.init(process.env.DICE_BOT_TOKEN, {
 
 }, {
 	CONFIG_DIR: __dirname + '/config',
